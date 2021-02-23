@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Account-Suite" duration-ms="18984" started-at="2021-02-17T15:54:44 IST" finished-at="2021-02-17T15:55:03 IST">
+    <groups>
+    </groups>
+    <test name="PradeepTesting" duration-ms="18984" started-at="2021-02-17T15:54:44 IST" finished-at="2021-02-17T15:55:03 IST">
+      <class name="test.Accounts">
+        <test-method status="PASS" signature="reports()[pri:0, instance:test.Accounts@52feb982]" name="reports" is-config="true" duration-ms="65" started-at="2021-02-17T15:54:44 IST" finished-at="2021-02-17T15:54:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.Accounts@52feb982]" name="beforeClass" is-config="true" duration-ms="5933" started-at="2021-02-17T15:54:44 IST" finished-at="2021-02-17T15:54:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:test.Accounts@52feb982]" name="LogIn" duration-ms="988" started-at="2021-02-17T15:54:50 IST" finished-at="2021-02-17T15:54:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:test.Accounts@52feb982]" name="result" is-config="true" duration-ms="4" started-at="2021-02-17T15:54:52 IST" finished-at="2021-02-17T15:54:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogIn status=SUCCESS method=Accounts.LogIn()[pri:0, instance:test.Accounts@52feb982] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="AccountsSetup()[pri:0, instance:test.Accounts@52feb982]" name="AccountsSetup" duration-ms="5692" started-at="2021-02-17T15:54:52 IST" finished-at="2021-02-17T15:54:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountsSetup -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:test.Accounts@52feb982]" name="result" is-config="true" duration-ms="0" started-at="2021-02-17T15:54:58 IST" finished-at="2021-02-17T15:54:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountsSetup status=SUCCESS method=Accounts.AccountsSetup()[pri:0, instance:test.Accounts@52feb982] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="AccountInfo()[pri:0, instance:test.Accounts@52feb982]" name="AccountInfo" duration-ms="2161" started-at="2021-02-17T15:54:58 IST" finished-at="2021-02-17T15:55:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountInfo -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:test.Accounts@52feb982]" name="result" is-config="true" duration-ms="0" started-at="2021-02-17T15:55:00 IST" finished-at="2021-02-17T15:55:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountInfo status=SUCCESS method=Accounts.AccountInfo()[pri:0, instance:test.Accounts@52feb982] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="DeleteAccount()[pri:0, instance:test.Accounts@52feb982]" name="DeleteAccount" duration-ms="1695" started-at="2021-02-17T15:55:00 IST" finished-at="2021-02-17T15:55:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAccount -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:test.Accounts@52feb982]" name="result" is-config="true" duration-ms="0" started-at="2021-02-17T15:55:02 IST" finished-at="2021-02-17T15:55:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteAccount status=SUCCESS method=Accounts.DeleteAccount()[pri:0, instance:test.Accounts@52feb982] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.Accounts@52feb982]" name="afterClass" is-config="true" duration-ms="811" started-at="2021-02-17T15:55:02 IST" finished-at="2021-02-17T15:55:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.Accounts -->
+    </test> <!-- PradeepTesting -->
+  </suite> <!-- Account-Suite -->
+</testng-results>

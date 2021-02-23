@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.TestListners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.Agent">
+        <methods>
+          <include name="AgentsAdd"/>
+          <include name="repos"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="result"/>
+        </methods>
+      </class> <!-- test.Agent -->
+      <class name="test.Acc_Representative">
+        <methods>
+          <include name="AccRepresntativeAdd"/>
+          <include name="repos"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="result"/>
+        </methods>
+      </class> <!-- test.Acc_Representative -->
+      <class name="test.ServiceAgentAdd">
+        <methods>
+          <include name="repos"/>
+          <include name="beforeClass"/>
+          <include name="AddServiceAgent"/>
+          <include name="afterClass"/>
+          <include name="result"/>
+        </methods>
+      </class> <!-- test.ServiceAgentAdd -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

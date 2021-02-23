@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Account-Suite]">
+  <listeners>
+    <listener class-name="utils.TestListners"/>
+  </listeners>
+  <test thread-count="5" name="PradeepTesting(failed)">
+    <classes>
+      <class name="test.Accounts">
+        <methods>
+          <include name="AccountsSetup"/>
+          <include name="DeleteAccount"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="reports"/>
+          <include name="result"/>
+        </methods>
+      </class> <!-- test.Accounts -->
+    </classes>
+  </test> <!-- PradeepTesting(failed) -->
+</suite> <!-- Failed suite [Account-Suite] -->
