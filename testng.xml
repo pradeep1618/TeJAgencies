@@ -4,14 +4,17 @@
 		<listener class-name="utils.TestListners" />
 	</listeners>
 	<test name="PradeepTesting">
+		<!-- Defining the classes to be execute -->
 		<classes>
+			<!-- Adding class to execute -->
 			<class name="test.Accounts">
-			<methods>
-			<include name="LogIn" />
-			<include name="AccountsSetup" />
-			<include name="AccountInfo" />
-			<include name="DeleteAccount" />
-			</methods>
+				<!-- Adding modules to include or exclude -->
+				<methods>
+					<include name="LogIn" />
+					<include name="AccountsSetup" />
+					<include name="AccountInfo" />
+					<include name="DeleteAccount" />
+				</methods>
 			</class>
 		</classes>
 	</test>
